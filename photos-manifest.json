@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "albania_2024.jpg",
+    "title": "albania 2024",
+    "description": "",
+    "src_local": "images/gallery/albania_2024.jpg",
+    "src_placeholder": "images/gallery/albania_2024.jpg"
+  },
+  {
+    "filename": "pol_domu_2021_analog.jpg",
+    "title": "pol_domu_2021_analog.jpg",
+    "description": "",
+    "src_local": "images/gallery/pol_domu_2021_analog.jpg",
+    "src_placeholder": "images/gallery/pol_domu_2021_analog.jpg"
+  },
+  {
+    "filename": "krowodrza_gorka_2023.jpg",
+    "title": "krowodrza_gorka_2023",
+    "description": "wielce ciekawy opis test 123",
+    "src_local": "images/gallery/krowodrza_gorka_2023.jpg",
+    "src_placeholder": "images/gallery/krowodrza_gorka_2023.jpg"
+  },
+  {
+    "filename": "kiepskie_balkony_2023_analog.JPG",
+    "title": "kiepskie_balkony",
+    "description": "",
+    "src_local": "images/gallery/kiepskie_balkony_2023_analog.JPG",
+    "src_placeholder": "images/gallery/kiepskie_balkony_2023_analog.JPG"
+  },
+  {
+    "filename": "dziad_na_balatonie_2022_analog.jpg",
+    "title": "dziad_na_balatonie_2022_analog",
+    "description": "",
+    "src_local": "images/gallery/dziad_na_balatonie_2022_analog.jpg",
+    "src_placeholder": "images/gallery/dziad_na_balatonie_2022_analog.jpg"
+  },
+  {
+    "filename": "jakies_krzaki_2022.jpg",
+    "title": "jakies_krzaki_2022",
+    "description": "",
+    "src_local": "images/gallery/jakies_krzaki_2022.jpg",
+    "src_placeholder": "images/gallery/jakies_krzaki_2022.jpg"
+  }
+]

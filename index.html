@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konrad Pikul - Creative Portfolio</title>
+    <meta name="description" content="Konrad Pikul's personal portfolio showcasing photography, music, sports, and writings with a mid-century modern aesthetic.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- Kept for footer icons, can be replaced with custom SVGs if preferred -->
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">KONRAD PIKUL</a>
+            <div class="nav-links">
+                <a href="photography.html" data-section="photography">Photography</a>
+                <a href="sport.html" data-section="sport">Sport</a>
+                <a href="music.html" data-section="music">Music</a>
+                <a href="blog.html" data-section="blog">Blog</a>
+            </div>
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeBtn">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="photography.html" class="mobile-link">Photography</a>
+        <a href="sport.html" class="mobile-link">Sport</a>
+        <a href="music.html" class="mobile-link">Music</a>
+        <a href="blog.html" class="mobile-link">Blog</a>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content animate-on-scroll">
+                <h1>Lorem ipsum<span class="hero-accent-line"></span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut commodo ante. Vivamus lacinia, leo eget consectetur commodo, lectus dui posuere nibh, vitae commodo massa elit id enim..</p>
+                <a href="#photography-section" class="retro-btn">Explore Works <span class="btn-arrow">→</span></a> 
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="content-section animate-on-scroll" id="photography-section">
+            <h2 class="section-title">Photography</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="photography.html#photo-1"> 
+                        <img src="images/gallery/jakies_krzaki_2022.jpg" alt="Urban flora" class="gallery-img">
+                        <div class="gallery-info">
+                            <h3>jakieś krzaki</h3>
+                            <p>Date: 2023 //</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                     <a href="photography.html#photo-2">
+                        <img src="images/gallery/albania_2024.jpg" alt="Albania landscape" class="gallery-img">
+                        <div class="gallery-info">
+                            <h3>Albania 35mm</h3>
+                            <p>Date: 2024 // </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="photography.html#photo-3">
+                        <img src="images/gallery/krowodrza_gorka_2023.jpg" alt="Krowodrza urban scene" class="gallery-img">
+                        <div class="gallery-info">
+                            <h3>Krowodrza 35mm</h3>
+                            <p>Date: 2023 //</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="photography.html" class="retro-btn">View Photography Archive <span class="btn-arrow">→</span></a>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="content-section animate-on-scroll" id="sport-section">
+            <h2 class="section-title">Sport</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/TLIRMEcvLz4" title="Retro Sport Mix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Vertical Ascent</h3>
+                        <p>Focus: Parkour // Year: 2023</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/3sL0omwK-5c" title="Parkour Flow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Urban Traversal</h3>
+                        <p>Focus: Freerunning // Year: 2024</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/52Gg9CqUw_Q" title="Skate Tricks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Board Dynamics</h3>
+                        <p>Focus: Skateboarding // Year: 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="sport.html" class="retro-btn">view more <span class="btn-arrow">→</span></a>
+            </div>
+        </section>
+        
+        <hr class="section-divider">
+
+        <section class="content-section animate-on-scroll" id="music-section">
+            <div class="section-background-motif">
+                 <svg class="music-section-wave" viewBox="0 0 1000 100" preserveAspectRatio="xMidYMid slice">
+                    <path d="M0,50 Q100,20 200,50 T400,50 Q500,80 600,50 T800,50 Q900,20 1000,50" stroke-width="3"/>
+                    <path d="M0,55 Q100,25 200,55 T400,55 Q500,75 600,55 T800,55 Q900,25 1000,55" stroke-width="3"/>
+                 </svg>
+            </div>
+            <h2 class="section-title">Music</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/watch?v=EKgkQYBKEMk" title="Konrad Pikul - Aberracja" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Blinding lights (live loop)</h3>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/Zzv3L2p_pYI?si=4XLlJKFP5lhcGVDc" title="Konrad Pikul - park jordana nana nana (live)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>park jordana nana nana (live)</h3>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/yOeCIbVA3zA?si=zWWYk4syRAsiuptZ" title="Konrad Pikul - Trał przeciwminowy Božena 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Trał przeciwminowy Božena 4</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="music.html" class="retro-btn">Listen to More <span class="btn-arrow">→</span></a>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+            
+        <section class="content-section animate-on-scroll" id="blog-section">
+            <h2 class="section-title">Writings & Thoughts</h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <div class="blog-post-header">
+                        <h3>The Neuroscience of Creativity</h3>
+                        <p class="date">Published: July 10, 2024</p>
+                    </div>
+                    <p>Exploring how creative thinking emerges from neural networks and how we can cultivate it through specific practices and environmental factors...</p>
+                    <a href="blog-viewer.html?post=the-neuroscience-of-creativity" class="retro-btn-small">Read Article <span class="btn-arrow small">→</span></a>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-header">
+                        <h3>Jazz</h3>
+                        <p class="date">Published: July 10, 2024</p>
+                    </div>
+                    <p>Jazz, jak go ugryźć...</p>
+                    <a href="blog-viewer.html?post=jazz" class="retro-btn-small">Read Article <span class="btn-arrow small">→</span></a>
+                </article>
+                <article class="blog-post">
+                     <div class="blog-post-header">
+                        <h3>The Chiptune Revival Phenomenon</h3>
+                        <p class="date">Published: June 25, 2024</p>
+                    </div>
+                    <p>Delving into the resurgence of 8-bit and 16-bit sonic architectures in contemporary audio production and game design...</p>
+                    <a href="blog-viewer.html?post=chiptune-revival" class="retro-btn-small">Read Article <span class="btn-arrow small">→</span></a>
+                </article>
+            </div>
+            <div class="view-all">
+                <a href="blog.html" class="retro-btn">Read All Posts <span class="btn-arrow">→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <hr class="section-divider final-divider">
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">KONRAD PIKUL</div>
+            <p class="footer-tagline">tekst dolny.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <!-- Add more social links as needed -->
+            </div>
+            <p class="copyright">© <span id="currentYear">2025</span> Konrad Pikul. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeBtn = document.getElementById('closeBtn');
+        const mobileLinks = mobileMenu.querySelectorAll('.mobile-link');
+
+        if (menuBtn && mobileMenu && closeBtn) {
+            menuBtn.addEventListener('click', () => { mobileMenu.classList.add('active'); });
+            closeBtn.addEventListener('click', () => { mobileMenu.classList.remove('active'); });
+            mobileLinks.forEach(link => { link.addEventListener('click', () => { mobileMenu.classList.remove('active'); }); });
+        }
+
+        // Update copyright year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Scroll Animation
+        const animatedElements = document.querySelectorAll('.animate-on-scroll');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 }); // Adjusted threshold for smoother appearance
+
+        animatedElements.forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>

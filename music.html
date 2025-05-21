@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music & Sound | Konrad Pikul</title>
+    <meta name="description" content="Konrad Pikul's collection of music compositions, sonic experiments, and performances.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sub-page music-page">
+    <header>
+        <nav>
+            <a href="index.html" class="logo">KONRAD PIKUL</a>
+            <div class="nav-links">
+                <a href="photography.html">Photography</a>
+                <a href="sport.html">Sport</a>
+                <a href="music.html" class="active-link">Music</a>
+                <a href="blog.html">Blog</a>
+            </div>
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeBtn">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="photography.html" class="mobile-link">Photography</a>
+        <a href="sport.html" class="mobile-link">Sport</a>
+        <a href="music.html" class="mobile-link active-link">Music</a>
+        <a href="blog.html" class="mobile-link">Blog</a>
+    </div>
+
+    <main class="page-content-wrapper">
+        <section class="page-hero">
+            <div class="page-hero-content">
+                <h1 class="page-title">Music & Sound</h1>
+                <p class="page-subtitle">A library of sonic experiments, compositions, and musical pieces.</p>
+            </div>
+        </section>
+
+        <hr class="section-divider short-divider">
+
+        <section class="video-stream-section">
+            <div id="videoStreamContainer" class="video-stream-container">
+                <p class="loading-message">Loading music...</p>
+                <!-- Videos will be loaded here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">KONRAD PIKUL</div>
+            <p class="footer-tagline">tekst dolny.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="copyright">© <span id="currentYear">2024</span> Konrad Pikul. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/video-loader.js"></script>
+</body>
+</html>

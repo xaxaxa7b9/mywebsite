@@ -1,0 +1,30 @@
+[
+  {
+    "title": "The Neuroscience of Creativity",
+    "date": "2023-06-15", 
+    "excerpt": "Exploring how creative thinking emerges from neural networks and how we can cultivate it through specific practices and environmental factors.",
+    "slug": "the-neuroscience-of-creativity",
+    "markdownFile": "posts/the-neuroscience-of-creativity.md"
+  },
+  {
+    "title": "Quantum Computing for Artists",
+    "date": "2023-04-02", 
+    "excerpt": "An accessible introduction to quantum principles and how they might influence creative fields in the coming decades.",
+    "slug": "quantum-computing-for-artists",
+    "markdownFile": "posts/quantum-computing-for-artists.md"
+  },
+  {
+    "title": "Jazz",
+    "date": "2025-06-15", 
+    "excerpt": "Jazz, jak go ugryźć?",
+    "slug": "jazz",
+    "markdownFile": "posts/jazz.md"
+  },
+  {
+    "title": "I Made a Crashpad for 10x Less",
+    "date": "2025-06-16", 
+    "excerpt": "An accessible introduction to quantum principles and how they might influence creative fields in the coming decades.",
+    "slug": "diy-crashpad",
+    "markdownFile": "posts/diy-crashpad.md"
+  }
+]
